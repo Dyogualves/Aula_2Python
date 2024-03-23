@@ -1,0 +1,60 @@
+#1 Imprima uma mensagem de boas-vindas na tela.
+print('Seja bem vindo!')
+
+# #2 Declare uma variável booleana verdadeiro com o valor True e imprima seu tipo
+n = 20,0
+real = bool(n)
+print(real)
+
+#3 Imprima o resultado da multiplicação de dois números decimais de sua escolha
+
+n1 = 20.0
+n2 = 30.8
+
+resultado = n1 * n2
+
+print(resultado)
+
+
+# #4 Imprima o resultado da divisão de dois números inteiros de sua escolha.
+n1 = 90
+n2 = 60
+
+resultado = n1 / n2
+
+print(resultado)
+
+#5 Imprima o resultado da subtração de dois números inteiros de sua escolha
+
+
+n1 = 70
+n2 = 30
+
+resultado = n1 - n2
+
+print(resultado)
+
+#8 Declare uma variável numero e atribua um número inteiro. Em seguida, imprima o dobro desse número
+
+n1 = 25
+
+print(n1*2)
+
+#9 Crie uma calculadora de soma com as ferramentas que vc já conhece(Use apenas input, print e variavel)
+
+nota1 = float(input('digite seu primeiro numero:'))
+nota2 = float(input('digite o numero que será multiplicado:'))
+
+print(nota1+nota2)
+print(nota1-nota2)
+print(nota1*nota2)
+print(nota1/nota2)
+
+#10 Crie um sistema de cadastro com as estruturas que vc já conhece(Use apenas input, print e variavel)
+
+nome = str(input('Digite seu nome:'))
+sobrenome = str(input('Digite seu sobrenome:'))
+idade = int(input('Digite seu idade:'))
+
+
+print(' Nome:',nome,sobrenome,'\n', 'Idade: ',idade,'\n' ,'Cadastro efetuado com sucesso!')
