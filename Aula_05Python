@@ -52,9 +52,22 @@ print(nota1/nota2)
 
 #10 Crie um sistema de cadastro com as estruturas que vc já conhece(Use apenas input, print e variavel)
 
-nome = str(input('Digite seu nome:'))
-sobrenome = str(input('Digite seu sobrenome:'))
-idade = int(input('Digite seu idade:'))
+print('Formulario de Cadastro')
+
+nome =  input('NOME:')
+idade = int(input('IDADE:'))
+cpf =  input('CPF:')
+email = input('E-MAIL:')
+endereco = input('ENDERECO:')
+
+print(f'''
+Dados do formulario, deseja enviar?
+{nome}
+{idade}
+{cpf}
+{email}
+{endereco}55
+''')
 
 
-print(' Nome:',nome,sobrenome,'\n', 'Idade: ',idade,'\n' ,'Cadastro efetuado com sucesso!')
+
