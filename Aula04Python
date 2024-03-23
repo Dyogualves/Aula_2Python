@@ -1,0 +1,115 @@
+# #  1 Crie um sistema que some 2  variáveis e mostre no Terminal
+# n1 = 2
+# n2 = 3
+# soma = n1+2
+# print(soma)
+
+# #2 Crie um sistema que eleve 10 ao cubo
+# n1 = 10
+# result = n1**3
+# print(result)
+
+# # 3 Crie um sistema que divida 150 por 3
+# valor = 150
+# divisor = 3
+# div = valor//divisor
+
+# print(div)
+
+# # n1 = float(input('>>')) 
+# # n2 = float(input('>>'))
+# # soma  = n1 + n2
+# # divisao = n1 / n2
+# # multiplicacao = n1 * n2
+# # subtracao = n1 - n2
+
+# # # concatenar == juntar
+# #string format
+
+# # print('RESULTDO DA SOMA = ', soma)
+# # print('RESULTDO DA SUBTRACAO = ', subtracao)
+# # print('RESULTDO DA MUlTIPLICACAO = ', multiplicacao)
+# # print('RESULTDO DA DIVISAO = ', divisao)
+
+
+# # and - retorna verdadeira quando as duas condições são verdadeira
+# # or - verdadeiro qunado  qulquer uma daseclarações forem verdadeiras
+# # not - vai ser verdadeiro quando a expressão for falso
+
+
+
+# # #concatenação == juntar** texto , variáveis, resultado
+# # numero_1 = 10
+# # numero_2 = 20
+# # print(numero_1, numero_2)
+
+# # print('tudo bem %s, sua idade é %s' %(nome,idade))
+# # print('tudo bem {}, sua idade é {}'.format(nome,idade))
+
+# #concatenar com virgula, no caso texto com +
+# nome = input('Digite seu nome >')
+# idade =  input('Digite sua idade >')
+# #juntar concatenar
+# print('Seja bem vindo(a)', nome, 'sua idade é', idade,'anos.')
+# print(f'olá {nome},sua idade é {idade}')
+# print('tudo bem %s, sua idade é %s' %(nome,idade))
+# print('tudo bem {}, sua idade é {}'.format(nome,idade))
+
+# nome_1 = input('Digite seu nome >')
+# sobrenome = input('>>')
+# print('ola tudo bem %s,  seu sobrenome  é %s' %(nome_1,sobrenome))
+
+# n1 = int(input('>>'))
+# n2 = int(input('>>'))
+# print('o numero digitado fora ', n1,n2)
+
+# palavra = input('Digite a palavra >')
+# n2 =  int(input('>>'))
+# print('A palavra digitada é', palavra, n2)
+# frase = input('>>')
+# palavra = input('>>')
+# print('A frase digitada é {} {}'. format(frase,palavra))
+
+
+
+
+
+#Exercício 1: Escreva um programa que use a função range() para gerar os números pares de 2 a 20 e, em seguida, imprima cada número.
+
+for n in range(2,21,2):
+  print(n)
+
+
+#Exercício 2: Escreva um programa que use a função range() para gerar os múltiplos de 5 em 5 a 50 e, em seguida, calcule e imprima a soma desses múltiplos.
+
+for n in range(5,51,5):
+  print(n)
+numeros = [5,10,15,20,25,30,35,40,45,50]
+soma = sum(numeros)
+print(soma)
+     
+
+
+#Exercício 3: Escreva um programa que use a função type() para verificar o tipo de uma variável.
+
+n1 = 5
+n2 = "Lucca"
+tipo1 = type(n1)
+tipo2 = type(n2)
+print(tipo1)
+print(tipo2)
+
+
+
+#Exercício 4: Escreva um programa que use a função print() para imprimir uma mensagem de saudação personalizada, incluindo o nome do usuário.
+nome = input('Digite seu nome')
+print ('Seja bem vindo!','\n', nome, 'Lucca')
+
+
+#Exercício 5: Escreva um programa que use a função range() para gerar os números ímpares de 1 a 10 e, em seguida, calcule e imprima a média desses números.
+for n in range(1,11,2):
+  print(n)
+numero = [1,3,5,7,9]
+soma = sum(numero)
+calc = soma / 5
+print(calc)
