@@ -1,4 +1,4 @@
-# Aula_Python
+# Curso_Python
 
 ### Linguagens de programação
 ### baixo nível
