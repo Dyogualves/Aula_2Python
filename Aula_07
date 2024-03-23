@@ -1,0 +1,29 @@
+# ### **Atividade: Calculadora de Média de Notas**
+
+# Crie um programa que permita ao usuário calcular a média de suas notas em diferentes disciplinas. O programa deve solicitar ao usuário que insira o número de disciplinas e, em seguida, pedir que insira as notas de cada disciplina. Depois de coletar todas as notas, o programa deve calcular e exibir a média geral.
+
+# ### Passos para a implementação:
+
+# 1. Solicite ao usuário que insira o número de disciplinas.
+# 2. Use um loop para solicitar as notas de cada disciplina.
+# 3. Calcule a média das notas.
+# 4. Exiba a média geral ao usuário.
+
+disciplinas = int(input('digite a qtd de disciplinas:'))
+print(disciplinas)
+
+soma = 0
+
+for notas in range(0, disciplinas):
+    notas = float(input('Digite as notas das disciplinas:'))
+    media = soma + notas
+
+if media<7.0:
+        print('Reprovado')
+elif media < 10:
+        print('Aprovado')
+else:
+        print('Aprovado com Distinção!')
+
+print('A media das notas é:', media)
+    
