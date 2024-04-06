@@ -1,0 +1,31 @@
+#Atividades com módulos:
+# 1º Escreva um programa que verifique se um determinado ano é bissexto ou não usando o operador de módulo
+
+# n1 = int(input('digite o numero: '))
+# n2 = int(input('digite o numero divisor: '))
+
+# resultado = n1 / n2
+
+# if n1 % n2 == 0:
+#     print(f'É divisivel, o resultado é: {resultado}')
+# elif n1 % n2 ==1:
+#     print('Não é divisivel')
+# else:
+#     print('NÃO PROCESSADO')
+
+# 2º Escreva um programa que verifique se um determinado ano é bissexto ou não usando o operador de módulo
+# ano  = int(input('Digite o ano: '))
+
+# if ano % 100!=0 and ano % 4 ==0 or ano % 400==0 :
+#     print('Ano Bissexto')
+# else:
+#     print('Não é Bissexto')
+
+
+# 3º Escreva um programa para multiplicar por 3,  os número pares de uma lista
+
+# n = [13,6,45,12,100,2,8]
+
+# for i in n:
+#     if i %2==0:
+#         print(i * 2)
