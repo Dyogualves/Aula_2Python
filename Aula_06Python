@@ -1,6 +1,8 @@
 # ### **Atividade: Calculadora de Média de Notas**
 
-# Crie um programa que permita ao usuário calcular a média de suas notas em diferentes disciplinas. O programa deve solicitar ao usuário que insira o número de disciplinas e, em seguida, pedir que insira as notas de cada disciplina. Depois de coletar todas as notas, o programa deve calcular e exibir a média geral.
+# Crie um programa que permita ao usuário calcular a média de suas notas em diferentes disciplinas. 
+O programa deve solicitar ao usuário que insira o número de disciplinas e, em seguida, pedir que 
+insira as notas de cada disciplina. Depois de coletar todas as notas,o programa deve calcular e exibir a média geral.
 
 # ### Passos para a implementação:
 
