@@ -1,0 +1,27 @@
+ #Tabuada usando while
+
+
+# # c= 0
+# # numero = int(input('>>>'))
+# # while c <= 10:
+# #     resultado = c * numero
+# #     print(c, 'x',  numero, '=',resultado)
+# #     c+=1 
+
+
+# # # Tabuada usando listas
+
+# # lista = [0,1,2,3,4,5,6,7,8,10]
+# # numero1 = int(input('>>'))
+# # for n in lista:
+# #     n2 =  lista[numero1]
+# #     result = n * lista[numero1]
+# #     print(n,'x',n2,'=', result)
+
+# # Tabuada usando range
+
+
+# numero1 = int(input('>>'))
+# for  n in range(0,11): 
+#     result  = n * numero1 
+#     print(n,'x', numero1, '=', result)
