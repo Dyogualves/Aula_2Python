@@ -56,8 +56,7 @@ def compra():
     print('''
     Escolha a forma de pagamento:
     1 - Cartão de crédito
-    2 - Cartão de débito
-    3 - Pix 
+    2 - Cartão de débito 
     ''')
     pagamento = int(input('Digite a forma de pagamento: '))
     if pagamento == 1:
