@@ -1,0 +1,78 @@
+# #Lista de frutas
+# frutas = ['maçã', 'banana', 'laranja', 'uva']
+
+# #Iterando sobre a lista de frutas com enumerate
+# for indice, fruta in enumerate(frutas):
+#     print(f'Índice: {indice}, Fruta: {fruta}')
+    
+# lista = [ 'Dyogu', 'Lucca', 'Camila', 'João']
+
+# for i, alunos in enumerate(lista, start=1):
+#     print('chamada', i, 'Nomes', alunos)
+    
+# cores = {'vermelho': '#fff000', 'verde': '#000fff', 'azul': '#f0f0f0'}
+
+# for indice, (cor, codigo) in enumerate(cores.items()):
+#     print(f'indice:{indice}, Cor: {cor}, Código: {codigo}')
+    
+#     print('--------------------------------')
+    
+# nomes = ['José', 'Maci', 'Tamires', 'Cassyele', 'Rafael']
+# print('lista de Alunos:')
+# for index, nome in enumerate(nomes, start=1):
+#     print('Nome:', nome, 'Numero:', index)
+
+
+
+
+# lista = []
+# print(lista)
+# lista.append(7) 
+# lista.append(13) 
+# lista.append(154) 
+
+# print(lista)
+
+# lista.remove(13)
+# del lista [0]
+# print('removeu', lista)
+
+# EXERCÍCIOS:
+
+#**Exercício 1:** Crie uma lista chamada pessoas que contenha os números inteiros de pessoa1 a pessoa5 e imprima-a na tela.
+
+pessoas = [ 'Davi', 'Lucca', 'Dyogu', 'Camila']
+print('Lista de Pessoas:')
+for index, nome in enumerate(pessoas, start=1):
+    print('Nome:', nome, 'Numero', index)
+    
+# **Exercício 2:** Acesse e imprima o terceiro elemento da lista `numeros`.
+
+numeros = [10,20,30,40,50,60,70]
+print(numeros[2])
+
+#**Exercício 3:** Adicione o número 9 à lista `numeros` e imprima a lista atualizada.
+
+
+numeros1 = [0,1,2,3,4,5,6,7,8]
+print(numeros1)
+
+
+numeros1.append(9)
+print(numeros1)
+
+
+#Exercício 4: Remova o número 5 da lista numeros e imprima a lista resultante.
+
+numeros2 = [0,1,2,3,4,5,6,7]
+numeros2.remove(5)
+
+print (numeros2)
+
+#Exercício 5: Crie uma lista chamada carros contendo três nomes de carros diferentes. Em seguida, concatene essa lista com a lista numeros e imprima o resultado.
+
+
+carros = ['HB20', 'I30', 'Corsa']
+print('Lista de carros')
+for index, carro in enumerate(carros, start = 1):
+    print('Carros', carros, index)
