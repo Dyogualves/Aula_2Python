@@ -1,0 +1,37 @@
+import statistics
+
+
+# VOCÊ É UM DEV E PRECISA CRIAR UM SISTEMA PARA UMA ESCOLA. 
+
+# SISTEMA DE NOTAS DE ALUNOS QUE MOSTRE COM ESTATISTICA A MODA E A MEDIA, VARIANÇA E DESVIO DE PADRÃO, DAS
+# NOTAS DE ALUNOS DE UM COLÉGIO, ALÉM DE MOSTRAR MENOR E A  MAIOR NOTA, SEPARE EM FUNÇÕES DIFERENTES
+
+lista = []
+def calcular(lista):
+    Aluno1 = int(input('Dyogu digite sua nota: '))
+    Aluno2 = int(input('Davi digite sua nota: '))
+    Aluno3 = int(input('Lucca digite sua nota: '))
+    Aluno4 = int(input('Camila digite sua nota: '))
+   
+    lista.append(Aluno1)
+    lista.append(Aluno2)
+    lista.append(Aluno3)
+    lista.append(Aluno4)
+    
+calcular(lista)
+
+def estatisticas():
+    
+    moda = statistics.mode(lista)
+    print("Moda:", moda)
+
+    media = statistics.mean(lista)   
+    print('Media:', media)
+    
+    variancia = statistics.variance(lista)
+    print("Variância:", variancia)
+    
+    desvio_padrao = statistics.stdev(lista)
+    print("Desvio Padrão:", desvio_padrao)
+    
+estatisticas()
