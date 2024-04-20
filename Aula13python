@@ -1,0 +1,100 @@
+
+# 1 CRIE UMA FUNÇÃO PARA COMPARAR 2 NÚMEROS, QUAL É DIVISIVEL POR 3. UTILIZE VARIÁVEIS LOCAIS.,,
+
+
+
+def comparar():
+    n1 = 7
+    n2 = 5
+     
+    igual = n1 == n2
+    print(igual)
+
+comparar()
+
+
+
+
+# 2 CRIE UM AFUNÇÃO PARA MULTIPLICAR 3 NUMEROS. UTILIZAR VARIAVEIS LOCAIS.
+
+def multiplicar(a,b,c):
+    print(a*b*c)
+
+multiplicar(2,3,6)    
+
+
+
+# 3 CRIE UMA FUNÇÃO PARA DESCOBRIR O VALOR ELEVADO DE UM NÚMERO. GLOBAIS
+
+n1  = int(input('Digite um numero: '))
+def elevado():
+    quadrado = n1 ** 2
+    print(quadrado)
+elevado()
+
+#4 UMA FUNÇÃO PARA MOSTRAR UMA MENSAGEM PERSONALIZADA NA TELA, 
+# SE O USUÁRIO PARA DIGITAR, 18 ANOS
+
+idade = int(input('Digite sua idade: '))
+
+if idade >= 18:
+    print('Maior de idade')
+else: 
+    print('Menor de idade')
+
+
+# 5 DESENVOLVA UMA FUNÇÃO PARA DESCOBRIR A IDADE DE UMA PESSOA.UTILIZE PARAMETROS 
+
+
+def idade1(ano_atual, data_nasc):
+    calc = ano_atual - ano_nasc
+    print(calc)
+    
+ano_nasc = int(input('Digite o ano do seu Nascimento:'))
+
+idade1(2024, ano_nasc)    
+
+# 6
+
+# DESENVOLVA UMA AFUNÇÃO PARA VER SE O BRASIL GANHOU A COPA DE 1998
+
+def copa():
+    pergunta = input('Digite um ano em que o Brasil ganhou a copa do mundo: ')
+    copas = [1958, 1962, 1970, 1994, 2002]
+    if pergunta in copas:
+        print('o Brasil ganhou esse ano ', pergunta)
+    else:
+        print('Esse ano o Brasil não ganhou!')
+    
+    print(pergunta)
+    
+copa()
+
+
+# DESENVOLVA UM SISTEMA DE RESTAURANTE, ONDE O CLIENTE TEM OPÇÃO DE ESCOLHER ENTRE SALADA, MACARRONADA, SANDUICHE, SORVETE.  PARAMETROS
+
+
+
+
+def restaurante():
+    print('''
+    Olá sejá bem vindo !!!
+    Escolha a opção Desejada: 
+    DIGITE  1 SALADA - 2 MACARRONADA - 3 SANDUICHE  - 4 SORVETE 
+    ''')
+    escolha = input('')
+    if escolha == '1':
+        print('Você escolheu salada') 
+    elif escolha == '2':
+        print('Você escolheu Macarronada')  
+    elif escolha == '3':
+        print('Você escolheu sanduiche')  
+    elif escolha == '4':
+       print('Você escolheu sorvete')
+    else:
+         print('Não existe essa opção') 
+            
+  
+restaurante()
+  
+  
