@@ -1,6 +1,6 @@
 import statistics
 
-
+# DESAFIO 1 
 # VOCÊ É UM DEV E PRECISA CRIAR UM SISTEMA PARA UMA ESCOLA. 
 
 # SISTEMA DE NOTAS DE ALUNOS QUE MOSTRE COM ESTATISTICA A MODA E A MEDIA, VARIANÇA E DESVIO DE PADRÃO, DAS
@@ -35,3 +35,72 @@ def estatisticas():
     print("Desvio Padrão:", desvio_padrao)
     
 estatisticas()
+
+
+
+# ## Desafio 2
+
+# Você é um analista de dados, e decidiu trocar de emprego.
+
+# Utilize a media, moda, mediana e o desvio padrão para decidir qual empresa faz sentido para você:
+
+# Justificar por que decidiu por essa empresa.
+
+
+import statistics
+
+def empresa1():
+    empresa1 = [1000,6000,1200,8000,10000]
+    
+    moda = statistics.mode(empresa1)
+    print("Moda:", moda)
+
+    media = statistics.mean(empresa1)   
+    print('Media:', media)
+    
+    variancia = statistics.variance(empresa1)
+    print("Variância:", variancia)
+    
+    desvio_padrao = statistics.stdev(empresa1)
+    print("Desvio Padrão:", desvio_padrao)
+    
+empresa1()
+
+
+def empresa2():
+    empresa2 = [5000,4000,3000,2000,7000]
+    
+    moda = statistics.mode(empresa2)
+    print("Moda:", moda)
+
+    media = statistics.mean(empresa2)   
+    print('Media:', media)
+    
+    variancia = statistics.variance(empresa2)
+    print("Variância:", variancia)
+    
+    desvio_padrao = statistics.stdev(empresa2)
+    print("Desvio Padrão:", desvio_padrao)
+    
+empresa2()
+    
+def empresa3():
+    empresa3 =  [1200,1300,8000,3000,15000]
+    
+    moda = statistics.mode(empresa3)
+    print("Moda:", moda)
+
+    media = statistics.mean(empresa3)   
+    print('Media:', media)
+    
+    variancia = statistics.variance(empresa3)
+    print("Variância:", variancia)
+    
+    desvio_padrao = statistics.stdev(empresa3)
+    print("Desvio Padrão:", desvio_padrao)
+    
+empresa3()
+    
+    
+
+
