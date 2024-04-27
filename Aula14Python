@@ -1,0 +1,51 @@
+# Exercício 1:
+# Calcule a raiz quadrada de um número inteiro inserido 
+# pelo usuário usando o módulo math
+
+
+import math
+def raiz():
+    raiz_quadrada = math.sqrt(50)
+    print(raiz_quadrada)  
+
+raiz()
+
+
+# Exercício 2:
+# Calcule o valor absoluto de um número decimal inserido 
+# pelo usuário usando o módulo math
+
+def absoluto():  
+    numero  =  int(input('Digite um numero'))
+    x =  math.fabs(numero)
+    print(x)
+
+absoluto()
+
+
+# Exercício 3:
+# Arredonde um número decimal inserido pelo usuário para o 
+# inteiro mais próximo usando o módulo math
+
+
+def arredonde():  
+    numero  =  float(input('Digite um numero'))
+    x =  math.ceil(numero)
+    y =  math.floor(numero)
+    print(x)
+    print(y)
+
+arredonde()
+
+
+# Exercício 4:
+# Calcule o seno de um ângulo em graus inserido pelo usuário 
+# usando o módulo math.
+
+def seno():  
+    numero  =  float(input('Digite um numero'))
+    x =  math.sin(numero)
+
+    print(x)
+
+seno()
