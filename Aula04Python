@@ -113,3 +113,18 @@ numero = [1,3,5,7,9]
 soma = sum(numero)
 calc = soma / 5
 print(calc)
+
+digite_valor = int (input ('digite a opção desejada "))
+if digite_valor == 1 :
+valor_saque = float(input ('Digite o valor do saque!"))
+saque (valor_saque)
+print (saldo-saque)
+elif digite_valor == 2:
+valor _deposito = float(input ('digite o valor de deposito !'))
+deposito(valor_deposito)
+print (saldo+deposito)
+else:
+digite_valor == 3
+vizualizar(saldo)
+
+
