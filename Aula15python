@@ -1,0 +1,31 @@
+class Formulario:
+    def __init__ (self, nome, idade, cpf, email):
+        self.nome = nome
+        self.idade = idade 
+        self.cpf = cpf
+        self.email = email
+
+     
+    def display(self):
+        print('Seu nome é:', self.nome,'\n', 'Você tem', self.idade, 'Anos','\n', 'O seu CPF é:', self.cpf,'\n', 'O seu E-mail é:',
+         self.email )
+
+    
+    def verificar(self):
+        if self.idade >= 18:
+            print('E Você é Maior de idade')
+        else: 
+            print('E Você é Menor de idade') 
+
+def formulario_verificacao():
+    nome =  input('Nome >>')
+    idade =  int(input('idade >>'))
+    cpf =  input('cpf >>')
+    email = input('e-mail >> ')  
+    
+    formulario =  Formulario(nome, idade, cpf, email )
+    formulario.display()
+    formulario.verificar()
+    
+
+formulario_verificacao()
