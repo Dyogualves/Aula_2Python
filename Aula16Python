@@ -1,0 +1,54 @@
+# 1: Crie uma classe chamada Cachorro com um atributo nome e um método 
+# latir que imprima "Woof!" quando chamado. 
+# Em seguida, crie um objeto da 
+# # classe Cachorro e chame o método latir.
+
+
+
+# class Cachorro():
+#     def __init__ (self, nome):
+#         self.nome = nome
+
+#     def latir(self):
+#         print('Woof!')
+
+# nome = input('digite o nome:')
+# print(nome, 'lati', '!')
+        
+# cachorro = Cachorro(nome)
+# cachorro.latir()
+
+
+# 2: Crie uma classe chamada Retangulo com atributos largura e 
+# altura. Adicione um método chamado calcular_area que retorna a área do retângulo.
+
+
+# class Retangulo():
+
+#     def __init__ (self, largura, altura):
+#         self.largura = largura
+#         self.altura = altura
+#     def calcular_area(self):
+#         print('O calculo do retangulo é:',self.altura * self.largura)
+# largura = int(input('Digite a Altura:'))
+# altura = int(input('Digite a Largura:'))
+
+# retangulo = Retangulo(largura, altura)
+# retangulo.calcular_area()
+
+
+
+# 3: Crie uma classe chamada Carro com um atributo chamado velocidade 
+# (inicialmente 0). Em seguida, adicione um método chamado acelerar que aumenta a
+# velocidade em 5 unidades.
+
+# class Carro():
+#     def __init__ (self):
+#         self.velocidade = 0
+        
+#     def acelerar(self):
+#        for n in range(self.velocidade,100,5):
+#            print('Acelerando:', n)
+
+# carro = Carro()
+# carro.acelerar()
